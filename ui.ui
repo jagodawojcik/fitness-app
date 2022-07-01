@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1049</width>
-    <height>607</height>
+    <width>1053</width>
+    <height>616</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -296,7 +296,7 @@ border:none;
               <number>0</number>
              </property>
              <item row="0" column="0" alignment="Qt::AlignLeft">
-              <widget class="QPushButton" name="pushButton">
+              <widget class="QPushButton" name="me_menu_btn">
                <property name="text">
                 <string/>
                </property>
@@ -326,7 +326,7 @@ border:none;
               </widget>
              </item>
              <item row="1" column="0" alignment="Qt::AlignLeft">
-              <widget class="QPushButton" name="pushButton_2">
+              <widget class="QPushButton" name="activity_menu_btn">
                <property name="text">
                 <string/>
                </property>
@@ -356,7 +356,7 @@ border:none;
               </widget>
              </item>
              <item row="2" column="0" alignment="Qt::AlignLeft">
-              <widget class="QPushButton" name="pushButton_3">
+              <widget class="QPushButton" name="food_menu_btn">
                <property name="text">
                 <string/>
                </property>
@@ -456,6 +456,21 @@ border:none;
        <enum>QFrame::Raised</enum>
       </property>
       <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
        <item>
         <widget class="QFrame" name="frame">
          <property name="frameShape">
@@ -494,7 +509,7 @@ border:none;
          </layout>
         </widget>
        </item>
-       <item alignment="Qt::AlignBottom">
+       <item alignment="Qt::AlignRight|Qt::AlignBottom">
         <widget class="QFrame" name="resize_grip">
          <property name="minimumSize">
           <size>

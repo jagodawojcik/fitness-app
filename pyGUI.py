@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'uizbiFSk.ui'
+## Form generated from reading UI file 'uiIbxSog.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1049, 607)
+        MainWindow.resize(1053, 616)
         MainWindow.setStyleSheet(u"*{\n"
 "border:none;\n"
 "}")
@@ -160,14 +160,14 @@ class Ui_MainWindow(object):
         self.gridLayout_2.setSpacing(0)
         self.gridLayout_2.setObjectName(u"gridLayout_2")
         self.gridLayout_2.setContentsMargins(0, 0, 0, 0)
-        self.pushButton = QPushButton(self.menu_frame)
-        self.pushButton.setObjectName(u"pushButton")
+        self.me_menu_btn = QPushButton(self.menu_frame)
+        self.me_menu_btn.setObjectName(u"me_menu_btn")
         icon4 = QIcon()
         icon4.addFile(u":/icons/Icon-62.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton.setIcon(icon4)
-        self.pushButton.setIconSize(QSize(60, 60))
+        self.me_menu_btn.setIcon(icon4)
+        self.me_menu_btn.setIconSize(QSize(60, 60))
 
-        self.gridLayout_2.addWidget(self.pushButton, 0, 0, 1, 1, Qt.AlignLeft)
+        self.gridLayout_2.addWidget(self.me_menu_btn, 0, 0, 1, 1, Qt.AlignLeft)
 
         self.label_3 = QLabel(self.menu_frame)
         self.label_3.setObjectName(u"label_3")
@@ -178,14 +178,14 @@ class Ui_MainWindow(object):
 
         self.gridLayout_2.addWidget(self.label_3, 0, 1, 1, 1)
 
-        self.pushButton_2 = QPushButton(self.menu_frame)
-        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.activity_menu_btn = QPushButton(self.menu_frame)
+        self.activity_menu_btn.setObjectName(u"activity_menu_btn")
         icon5 = QIcon()
         icon5.addFile(u":/icons/Icon-4.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_2.setIcon(icon5)
-        self.pushButton_2.setIconSize(QSize(60, 60))
+        self.activity_menu_btn.setIcon(icon5)
+        self.activity_menu_btn.setIconSize(QSize(60, 60))
 
-        self.gridLayout_2.addWidget(self.pushButton_2, 1, 0, 1, 1, Qt.AlignLeft)
+        self.gridLayout_2.addWidget(self.activity_menu_btn, 1, 0, 1, 1, Qt.AlignLeft)
 
         self.label_4 = QLabel(self.menu_frame)
         self.label_4.setObjectName(u"label_4")
@@ -193,14 +193,14 @@ class Ui_MainWindow(object):
 
         self.gridLayout_2.addWidget(self.label_4, 1, 1, 1, 1)
 
-        self.pushButton_3 = QPushButton(self.menu_frame)
-        self.pushButton_3.setObjectName(u"pushButton_3")
+        self.food_menu_btn = QPushButton(self.menu_frame)
+        self.food_menu_btn.setObjectName(u"food_menu_btn")
         icon6 = QIcon()
         icon6.addFile(u":/icons/Icon-64.png", QSize(), QIcon.Normal, QIcon.Off)
-        self.pushButton_3.setIcon(icon6)
-        self.pushButton_3.setIconSize(QSize(60, 60))
+        self.food_menu_btn.setIcon(icon6)
+        self.food_menu_btn.setIconSize(QSize(60, 60))
 
-        self.gridLayout_2.addWidget(self.pushButton_3, 2, 0, 1, 1, Qt.AlignLeft)
+        self.gridLayout_2.addWidget(self.food_menu_btn, 2, 0, 1, 1, Qt.AlignLeft)
 
         self.label_5 = QLabel(self.menu_frame)
         self.label_5.setObjectName(u"label_5")
@@ -260,7 +260,9 @@ class Ui_MainWindow(object):
         self.footer_frame.setFrameShape(QFrame.NoFrame)
         self.footer_frame.setFrameShadow(QFrame.Raised)
         self.horizontalLayout_6 = QHBoxLayout(self.footer_frame)
+        self.horizontalLayout_6.setSpacing(0)
         self.horizontalLayout_6.setObjectName(u"horizontalLayout_6")
+        self.horizontalLayout_6.setContentsMargins(0, 0, 0, 0)
         self.frame = QFrame(self.footer_frame)
         self.frame.setObjectName(u"frame")
         self.frame.setFrameShape(QFrame.StyledPanel)
@@ -296,7 +298,7 @@ class Ui_MainWindow(object):
         self.resize_grip.setFrameShape(QFrame.StyledPanel)
         self.resize_grip.setFrameShadow(QFrame.Raised)
 
-        self.horizontalLayout_6.addWidget(self.resize_grip, 0, Qt.AlignBottom)
+        self.horizontalLayout_6.addWidget(self.resize_grip, 0, Qt.AlignRight|Qt.AlignBottom)
 
 
         self.verticalLayout.addWidget(self.footer_frame)
@@ -319,11 +321,11 @@ class Ui_MainWindow(object):
         self.maximize_window_button.setText("")
         self.close_window_button.setText("")
         self.minimize_window_button.setText("")
-        self.pushButton.setText("")
+        self.me_menu_btn.setText("")
         self.label_3.setText(QCoreApplication.translate("MainWindow", u"Me", None))
-        self.pushButton_2.setText("")
+        self.activity_menu_btn.setText("")
         self.label_4.setText(QCoreApplication.translate("MainWindow", u"Activity", None))
-        self.pushButton_3.setText("")
+        self.food_menu_btn.setText("")
         self.label_5.setText(QCoreApplication.translate("MainWindow", u"Food", None))
         self.footer_left_frame.setText(QCoreApplication.translate("MainWindow", u"Version 1.0 | Author: Jagoda Wojcik", None))
         self.questionmark_button.setText(QCoreApplication.translate("MainWindow", u"?", None))
