@@ -68,6 +68,7 @@ class MainWindow(QMainWindow):
         #Move to 'Me' personal info page
         self.ui.food_menu_btn.clicked.connect(lambda: self.ui.stackedWidget.setCurrentWidget(self.ui.food_body_page))
         
+        #Making app window able to be dragged and dropped by mouse click
         self.oldPos = self.pos()
         self.show()
     
@@ -82,6 +83,9 @@ class MainWindow(QMainWindow):
                 #Change icon to ->go to maximized two windows !!!!!!!!!!!!!!!!!!!!!!!
                 self.ui.maximize_window_button.setIcon(QIcon(r"C:\Users\JagodaW\repos\FitApp\fitness-app\imgs\icons\Icon-52.png"))
 
+
+    ##app window drag and drop functions - need to handle mouse events ourselves
+    #mouse tracking is off by default, mouse event only occurs when the button is pressed and mouse moved
     #read the position of the mouse on the screen when clicked
     def mousePressEvent(self, event):
         self.oldPos = event.globalPos()
