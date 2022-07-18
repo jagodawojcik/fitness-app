@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1053</width>
-    <height>616</height>
+    <width>1083</width>
+    <height>719</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -411,7 +411,738 @@ border:none;
             <property name="currentIndex">
              <number>0</number>
             </property>
-            <widget class="QWidget" name="me_body_page"/>
+            <widget class="QWidget" name="me_body_page">
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <item>
+               <widget class="QScrollArea" name="scrollArea">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="verticalScrollBarPolicy">
+                 <enum>Qt::ScrollBarAlwaysOn</enum>
+                </property>
+                <property name="sizeAdjustPolicy">
+                 <enum>QAbstractScrollArea::AdjustToContents</enum>
+                </property>
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="me_scroll_area">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>753</width>
+                   <height>1236</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_3">
+                  <item>
+                   <widget class="QFrame" name="personal_info_main_frame">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>300</height>
+                     </size>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_5">
+                     <item>
+                      <widget class="QFrame" name="personal_info_frame">
+                       <property name="minimumSize">
+                        <size>
+                         <width>0</width>
+                         <height>700</height>
+                        </size>
+                       </property>
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                       <widget class="QTabWidget" name="tabWidget">
+                        <property name="geometry">
+                         <rect>
+                          <x>0</x>
+                          <y>0</y>
+                          <width>683</width>
+                          <height>300</height>
+                         </rect>
+                        </property>
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>250</height>
+                         </size>
+                        </property>
+                        <property name="currentIndex">
+                         <number>0</number>
+                        </property>
+                        <widget class="QWidget" name="personal_info_tab">
+                         <attribute name="title">
+                          <string>Personal Information</string>
+                         </attribute>
+                         <widget class="QLabel" name="label_6">
+                          <property name="geometry">
+                           <rect>
+                            <x>0</x>
+                            <y>10</y>
+                            <width>661</width>
+                            <height>16</height>
+                           </rect>
+                          </property>
+                          <property name="font">
+                           <font>
+                            <pointsize>12</pointsize>
+                           </font>
+                          </property>
+                          <property name="text">
+                           <string>Personal Information</string>
+                          </property>
+                         </widget>
+                         <widget class="QWidget" name="widget" native="true">
+                          <property name="geometry">
+                           <rect>
+                            <x>-10</x>
+                            <y>40</y>
+                            <width>683</width>
+                            <height>191</height>
+                           </rect>
+                          </property>
+                          <layout class="QGridLayout" name="gridLayout_3">
+                           <item row="1" column="0">
+                            <widget class="QLabel" name="age_label">
+                             <property name="font">
+                              <font>
+                               <pointsize>10</pointsize>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>Age:</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="0" column="3">
+                            <widget class="QLineEdit" name="name_line">
+                             <property name="autoFillBackground">
+                              <bool>false</bool>
+                             </property>
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(255, 255, 245)</string>
+                             </property>
+                             <property name="text">
+                              <string>enter name...</string>
+                             </property>
+                             <property name="clearButtonEnabled">
+                              <bool>false</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="8" column="3" rowspan="2">
+                            <widget class="QFrame" name="frame_5">
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <layout class="QHBoxLayout" name="horizontalLayout_9">
+                              <item>
+                               <widget class="QPushButton" name="pushButton">
+                                <property name="font">
+                                 <font>
+                                  <pointsize>9</pointsize>
+                                 </font>
+                                </property>
+                                <property name="text">
+                                 <string>Edit</string>
+                                </property>
+                               </widget>
+                              </item>
+                              <item>
+                               <widget class="QPushButton" name="pushButton_2">
+                                <property name="font">
+                                 <font>
+                                  <pointsize>9</pointsize>
+                                 </font>
+                                </property>
+                                <property name="styleSheet">
+                                 <string notr="true"/>
+                                </property>
+                                <property name="text">
+                                 <string>Save</string>
+                                </property>
+                               </widget>
+                              </item>
+                             </layout>
+                            </widget>
+                           </item>
+                           <item row="0" column="0">
+                            <widget class="QLabel" name="name_line_2">
+                             <property name="font">
+                              <font>
+                               <pointsize>10</pointsize>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>Name:</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="6" column="0">
+                            <widget class="QLabel" name="weight_label">
+                             <property name="font">
+                              <font>
+                               <pointsize>10</pointsize>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>Weight:</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="1" column="3">
+                            <widget class="QLineEdit" name="age_linetext">
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(255, 255, 245)</string>
+                             </property>
+                             <property name="text">
+                              <string>enter age...</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="3">
+                            <widget class="QLineEdit" name="height_line">
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(255, 255, 245)</string>
+                             </property>
+                             <property name="text">
+                              <string>enter height (cm)...</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="0">
+                            <widget class="QLabel" name="sex_label">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>16777215</width>
+                               <height>13</height>
+                              </size>
+                             </property>
+                             <property name="font">
+                              <font>
+                               <pointsize>10</pointsize>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>Sex:</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="3" column="0">
+                            <widget class="QLabel" name="height_label">
+                             <property name="font">
+                              <font>
+                               <pointsize>10</pointsize>
+                              </font>
+                             </property>
+                             <property name="text">
+                              <string>Height:</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="6" column="3">
+                            <widget class="QLineEdit" name="weight_line">
+                             <property name="styleSheet">
+                              <string notr="true">background-color: rgb(255, 255, 245)</string>
+                             </property>
+                             <property name="text">
+                              <string>enter weight (kg)...</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item row="2" column="3">
+                            <widget class="QFrame" name="frame_4">
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="minimumSize">
+                              <size>
+                               <width>0</width>
+                               <height>20</height>
+                              </size>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>1677721</width>
+                               <height>15</height>
+                              </size>
+                             </property>
+                             <property name="frameShape">
+                              <enum>QFrame::StyledPanel</enum>
+                             </property>
+                             <property name="frameShadow">
+                              <enum>QFrame::Raised</enum>
+                             </property>
+                             <widget class="QRadioButton" name="radioButton">
+                              <property name="geometry">
+                               <rect>
+                                <x>10</x>
+                                <y>0</y>
+                                <width>74</width>
+                                <height>16</height>
+                               </rect>
+                              </property>
+                              <property name="text">
+                               <string>Female</string>
+                              </property>
+                             </widget>
+                             <widget class="QRadioButton" name="radioButton_2">
+                              <property name="geometry">
+                               <rect>
+                                <x>100</x>
+                                <y>0</y>
+                                <width>74</width>
+                                <height>16</height>
+                               </rect>
+                              </property>
+                              <property name="text">
+                               <string>Male</string>
+                              </property>
+                             </widget>
+                            </widget>
+                           </item>
+                          </layout>
+                          <zorder>frame_4</zorder>
+                          <zorder>name_line_2</zorder>
+                          <zorder>age_label</zorder>
+                          <zorder>name_line</zorder>
+                          <zorder>age_linetext</zorder>
+                          <zorder>sex_label</zorder>
+                          <zorder>weight_label</zorder>
+                          <zorder>height_label</zorder>
+                          <zorder>height_line</zorder>
+                          <zorder>weight_line</zorder>
+                          <zorder>frame_5</zorder>
+                         </widget>
+                         <widget class="QFrame" name="frame_7">
+                          <property name="geometry">
+                           <rect>
+                            <x>10</x>
+                            <y>250</y>
+                            <width>120</width>
+                            <height>80</height>
+                           </rect>
+                          </property>
+                          <property name="frameShape">
+                           <enum>QFrame::StyledPanel</enum>
+                          </property>
+                          <property name="frameShadow">
+                           <enum>QFrame::Raised</enum>
+                          </property>
+                         </widget>
+                        </widget>
+                        <widget class="QWidget" name="tab_2">
+                         <attribute name="title">
+                          <string>Add New User - coming soon...</string>
+                         </attribute>
+                        </widget>
+                       </widget>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="weight_record_main_frame">
+                    <property name="minimumSize">
+                     <size>
+                      <width>20</width>
+                      <height>400</height>
+                     </size>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <widget class="QCalendarWidget" name="calendarWidget">
+                     <property name="geometry">
+                      <rect>
+                       <x>40</x>
+                       <y>70</y>
+                       <width>392</width>
+                       <height>236</height>
+                      </rect>
+                     </property>
+                     <property name="palette">
+                      <palette>
+                       <active>
+                        <colorrole role="Button">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Light">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="BrightText">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Base">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Window">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="HighlightedText">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                       </active>
+                       <inactive>
+                        <colorrole role="Button">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Light">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="BrightText">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Base">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Window">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="HighlightedText">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                       </inactive>
+                       <disabled>
+                        <colorrole role="Button">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Light">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="BrightText">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Base">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="Window">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>233</red>
+                           <green>229</green>
+                           <blue>255</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                        <colorrole role="HighlightedText">
+                         <brush brushstyle="SolidPattern">
+                          <color alpha="255">
+                           <red>0</red>
+                           <green>0</green>
+                           <blue>0</blue>
+                          </color>
+                         </brush>
+                        </colorrole>
+                       </disabled>
+                      </palette>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <weight>75</weight>
+                       <bold>true</bold>
+                      </font>
+                     </property>
+                     <property name="focusPolicy">
+                      <enum>Qt::WheelFocus</enum>
+                     </property>
+                    </widget>
+                    <widget class="QLabel" name="add_weight_label">
+                     <property name="geometry">
+                      <rect>
+                       <x>10</x>
+                       <y>20</y>
+                       <width>251</width>
+                       <height>31</height>
+                      </rect>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>14</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>Add weight record</string>
+                     </property>
+                    </widget>
+                    <widget class="QLabel" name="date_label">
+                     <property name="geometry">
+                      <rect>
+                       <x>470</x>
+                       <y>20</y>
+                       <width>55</width>
+                       <height>16</height>
+                      </rect>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>12</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>Date:</string>
+                     </property>
+                    </widget>
+                    <widget class="QLabel" name="weight_label_2">
+                     <property name="geometry">
+                      <rect>
+                       <x>470</x>
+                       <y>90</y>
+                       <width>81</width>
+                       <height>31</height>
+                      </rect>
+                     </property>
+                     <property name="font">
+                      <font>
+                       <pointsize>12</pointsize>
+                      </font>
+                     </property>
+                     <property name="text">
+                      <string>Weight:</string>
+                     </property>
+                    </widget>
+                    <widget class="QLabel" name="display_date_label">
+                     <property name="geometry">
+                      <rect>
+                       <x>470</x>
+                       <y>50</y>
+                       <width>55</width>
+                       <height>16</height>
+                      </rect>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                    <widget class="QLineEdit" name="add_weight_textEdit">
+                     <property name="geometry">
+                      <rect>
+                       <x>470</x>
+                       <y>120</y>
+                       <width>171</width>
+                       <height>22</height>
+                      </rect>
+                     </property>
+                     <property name="styleSheet">
+                      <string notr="true">background-color: rgb(255, 255, 245)</string>
+                     </property>
+                     <property name="text">
+                      <string>enter weight (kg): ...</string>
+                     </property>
+                    </widget>
+                    <widget class="QTableView" name="weight_table_view">
+                     <property name="geometry">
+                      <rect>
+                       <x>440</x>
+                       <y>170</y>
+                       <width>256</width>
+                       <height>192</height>
+                      </rect>
+                     </property>
+                    </widget>
+                    <widget class="QPushButton" name="add_weight_btn">
+                     <property name="geometry">
+                      <rect>
+                       <x>70</x>
+                       <y>340</y>
+                       <width>93</width>
+                       <height>28</height>
+                      </rect>
+                     </property>
+                     <property name="text">
+                      <string>Add</string>
+                     </property>
+                    </widget>
+                    <widget class="QPushButton" name="remove_weight_btn">
+                     <property name="geometry">
+                      <rect>
+                       <x>250</x>
+                       <y>340</y>
+                       <width>93</width>
+                       <height>28</height>
+                      </rect>
+                     </property>
+                     <property name="text">
+                      <string>Remove</string>
+                     </property>
+                    </widget>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QFrame" name="weight_chart_main_frame">
+                    <property name="minimumSize">
+                     <size>
+                      <width>0</width>
+                      <height>500</height>
+                     </size>
+                    </property>
+                    <property name="frameShape">
+                     <enum>QFrame::StyledPanel</enum>
+                    </property>
+                    <property name="frameShadow">
+                     <enum>QFrame::Raised</enum>
+                    </property>
+                    <layout class="QVBoxLayout" name="verticalLayout_6">
+                     <item alignment="Qt::AlignTop">
+                      <widget class="QLabel" name="weight_chart_label">
+                       <property name="font">
+                        <font>
+                         <pointsize>14</pointsize>
+                        </font>
+                       </property>
+                       <property name="text">
+                        <string>Weight chart</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QFrame" name="weight_plot_space">
+                       <property name="frameShape">
+                        <enum>QFrame::StyledPanel</enum>
+                       </property>
+                       <property name="frameShadow">
+                        <enum>QFrame::Raised</enum>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
             <widget class="QWidget" name="activity_body_page"/>
             <widget class="QWidget" name="food_body_page"/>
            </widget>
